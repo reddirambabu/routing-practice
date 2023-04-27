@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+}
+.image {
+  width: 150px;
+}
+.title {
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.description {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+@media screen and (min-width: 992px) {
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+  .title {
+    font-size: 44px;
+  }
+}

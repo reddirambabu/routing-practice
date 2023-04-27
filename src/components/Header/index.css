@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.list {
+  display: flex;
+  padding-left: 0px;
+  list-style-type: none;
+  margin-left: 10px;
+}
+.logo-title {
+  color: #551e53;
+  font-size: 16px;
+}
+
+.list-item {
+  font-size: 14px;
+  text-decoration: none;
+  /* padding: 4px; */
+  margin-left: 16px;
+  color: #551e53;
+}
+
+@media screen and (min-width: 992px) {
+  .list-item {
+    font-size: 22px;
+    padding: 12px;
+  }
+  .logo {
+    width: 60px;
+    height: 50px;
+  }
+  .logo-title {
+    font-size: 24px;
+  }
+}
